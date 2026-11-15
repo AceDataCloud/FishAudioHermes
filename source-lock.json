@@ -1,0 +1,36 @@
+{
+  "canonical_repository": "https://github.com/AceDataCloud/AceDataCloudMediaHermes",
+  "canonical_commit": "dbe1fd897a7e93097d989bcb15fad554fd350135",
+  "generator": "scripts/export_service.py",
+  "service": "fish",
+  "consumer_repository": "https://github.com/AceDataCloud/FishAudioHermes",
+  "canonical_contract": "services/fish.json",
+  "identity_map": {
+    "tool_prefix": [
+      "acedatacloud_fish",
+      "acedatacloud_single_fish"
+    ],
+    "toolset": [
+      "acedatacloud-fish",
+      "acedatacloud-single-fish"
+    ],
+    "native_image_provider": null
+  },
+  "transport_sha256": "2653fd9275cbda09beff43968d943baa82df83656217d08ddeb9521cc99b1d7f",
+  "canonical_operation_sha256": "4d6d32d664c2527547b49eb7cd7cb525d60f9720920af69d06b94bdd351591aa",
+  "generated_files": {
+    "__init__.py": "befe7ccc20f9dc0cd05d3c62fe25f036ab59371a82de41ef4edbc581af803aa5",
+    "client.py": "2653fd9275cbda09beff43968d943baa82df83656217d08ddeb9521cc99b1d7f",
+    "image_provider.py": "183dc1f72fa1905364466aa30da14d82c074d3484ee6a6a6a5b739a62342490c",
+    "services/fish.json": "f2bf95b5d9221a4a7d80f210c8a9e38c7ac34f49e20dc0c295c7598ffd1ff572",
+    "plugin.yaml": "b38afaa195e70117fc08b91be4fc54fddb47285fc230497c9dee04374d6dbcb0",
+    "tests/test_contracts.py": "fa834427da679d6abb5a4a697f2d8a5ea18fcd9589aef7cb7077c3ebf5ff7dd3",
+    "tests/test_registration.py": "a3b2904d16e44ab70696555165f6b05465cfc978b5fe5160cbca9acebc22845d",
+    "tests/test_source_profile.py": "d29b78f9671e46fccfa1239c8f864ae282c19c8f7d9411b8b2ac2138373336ba",
+    "scripts/check_runtime.py": "be594c81cf4436cc9689babae0344815268aab33345afc391221079be151e90f",
+    "LICENSE": "72d30730d068e067be58878959bac2450f5a05f2b2e3c365cdc13a0181635c3c",
+    ".github/workflows/validate.yml": "9c6a35ecfb33f262347d91ffce4ba7f407902c0f90a5184f39a132b8e2d7c374",
+    "README.md": "c0c466f940ed33134a3814ec4b968eda0ff4f3ceea7950a78c34aa30f6148109",
+    "readme/README_zh_Hans.md": "dcb759f2676b947b7f0cd33c1eb0053dfe0bc9f88a26daa7b982c12c004e072f"
+  }
+}
